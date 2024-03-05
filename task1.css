@@ -1,0 +1,1127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    background-color: #00B98E;
+    text-decoration: none;
+    
+}
+.navbar .firsttitle{
+    text-decoration: none;
+}
+.navbar h1{
+    margin-top: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+
+}
+.navbar .navmenu{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.navbar .navmenu a{
+padding: 5px 20px;
+text-decoration: none;
+color: white;
+margin-bottom: 20px;
+margin-top: 15px;
+font-size: 1rem;
+}
+
+
+.navbar .navmenu button{
+    padding: 5px 25px;
+    margin-left: 70px;
+    border-radius: 50rem;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-style: none;
+    cursor: pointer;
+
+
+    
+}
+.dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+}
+  
+.navbar a:hover, {
+    text-decoration: underline;
+    
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    padding: 0;
+    
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+  
+.dropdown-content a:hover {
+    background-color: silver;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.title{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #00B98E;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    position: relative;
+}
+.title .wave{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+.title .titlematter{
+    margin-left: 10px;
+    color: white;
+    width: 630px;
+    margin-top: 70px;
+}
+.title .titlematter h2{
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+   
+}
+.title .titlematter p{
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+}
+.title button{
+    padding: 1rem 3rem;
+    border-radius: 50rem;
+    background-color: #00B98E;
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+    font-size: 1.1rem;
+    cursor: pointer;
+    
+}
+.title button:hover{
+    background-color: white;
+    color: black;
+}
+.titleimg{
+    margin-left: 50px;
+    z-index: 1;
+     
+}
+.about{
+    margin: 100px;
+    
+    display: flex;
+}
+.about-img{
+    width: 50%;
+    margin-top: 50px;
+    
+}
+.about .about-text{
+    width: 50%;
+}
+.about-title{
+    color: #00B98E;
+    border: 1px solid #dee2e6;
+    padding: 1px 15px;
+    border-radius: 10px;
+    width:100px;
+    font-size: 1.1rem;
+    font-weight: 600px;
+    margin-bottom: 20px;
+      
+}
+.about-text h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.about-text p{
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 20px;
+}
+.about-user h5{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+}
+.about-user p{
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 20px;
+}
+.about-financial h5{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.about-financial p{
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 20px;
+
+}
+.about button{
+    padding: 20px 50px;
+    background-color: #00B98E;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 1rem;
+
+}
+.email{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #00B98E;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: white;
+    display: flex;
+    
+}
+.email .email-text{
+    margin: 100px;
+    
+}
+
+.email h5{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+
+}
+.email p{
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 10px;
+}
+.email input{
+    width: 500px;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 50px;
+    border-style: none;
+}
+.email .email-img{
+    margin-left: 100px;
+    
+}
+.services{
+    margin: 100px;
+}
+.services .services-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.services h6{
+    color: #00B98E;
+    border: 1px solid #dee2e6;
+    padding: 1px 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 42%;
+}
+.services h5{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    margin-left: 28%;
+
+}
+.services .services-card1{
+    display: flex;
+}
+  
+
+.services .services-card .card1{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    display: block;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 80px;   
+
+}
+.services .services-card .card1 h4{
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+
+
+}
+.services .services-card .card1 p{
+    font-family: 'Heebo', sans-serif;
+}
+.services .services-card .card2{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    
+ 
+    
+
+}
+.services .services-card .card2 h4{
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+
+
+}
+.services .services-card .card2 p{
+    font-family: 'Heebo', sans-serif;
+}
+.services .services-card .card3{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    overflow: hidden;
+   
+    
+
+}
+.services .services-card .card3 h4{
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+
+
+}
+.services .services-card .card3 p{
+    font-family: 'Heebo', sans-serif;
+}
+.services .services-card2{
+    display: flex;
+}
+.services .services-card .card4{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    
+    
+
+}
+.services .services-card .card4 h4{
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+
+
+}
+.services .services-card .card4 p{
+    font-family: 'Heebo', sans-serif;
+}
+
+.services .services-card .card5{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+  
+    
+
+}
+.services .services-card .card5 h4{
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+
+
+}
+.services .services-card .card5 p{
+    font-family: 'Heebo', sans-serif;
+}
+.services .services-card .card6{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    margin-top: 30px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    overflow: hidden;
+
+}
+.services .services-card .card6 h4{
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+
+
+}
+.services .services-card .card6 p{
+    font-family: 'Heebo', sans-serif;
+}
+.features{
+    margin: 100px;
+    display: flex;
+}
+.features .features-title{
+    width: 40%;
+    margin-left: 30px;
+}
+.features h6{
+    color: #00B98E;
+    border: 1px solid #dee2e6;
+    padding: 1px 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    width: 100px;
+    
+    
+}
+.features h5{
+    font-size: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    margin-bottom: 20px;
+    
+}
+.features p{
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 20px;
+}
+.features button{
+    padding: 20px 50px;
+    background-color: #00B98E;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 1rem;
+}
+.features .features-icon{
+
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.features-icon1{
+    display: flex;
+
+}
+
+.features-icon-cubes{
+    width: 330px;
+    height: 100px;
+    padding-left: 15px;
+    margin-right: 30px;
+    
+      
+    
+}
+.features-icon-cubes i{
+    float: left;
+}
+.features-icon-cubes h5{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    float: left;
+   
+}
+.features-icon-cubes p{
+    font-family: 'Heebo', sans-serif;
+}
+.features-icon-percent{
+    width: 330px;
+    height: 100px;
+    padding-left: 15px;
+    margin-right: 30px;
+      
+    
+}
+.features-icon-percent i{
+    float: left;
+    
+}
+.features-icon-percent h5{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    float: left;
+   
+}
+.features-icon-percent p{
+    font-family: 'Heebo', sans-serif;
+}
+.features-icon2{
+    display: flex;
+    
+}
+.features-icon-smile{
+    width: 330px;
+    height: 100px;
+    padding-left: 15px;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+      
+    
+}
+.features-icon-smile i{
+    float: left;
+    
+}
+.features-icon-smile h5{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    float: left;
+   
+}
+.features-icon-smile p{
+    font-family: 'Heebo', sans-serif;
+}
+.features-icon-award{
+    width: 330px;
+    height: 100px;
+    padding-left: 15px;
+    margin-right: 30px;
+    margin-top: 30px;
+      
+    
+}
+.features-icon-award i{
+    float: left;
+    
+}
+.features-icon-award h5{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    float: left;
+   
+}
+.features-icon-award p{
+    font-family: 'Heebo', sans-serif;
+}
+.features-icon3{
+    display: flex;
+}
+.features-icon-headphones{
+    width: 330px;
+    height: 100px;
+ 
+    padding-left: 15px;
+    margin-right: 30px;
+    margin-top: 30px;
+      
+    
+}
+.features-icon-headphones i{
+    float: left;
+    
+}
+.features-icon-headphones h5{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    float: left;
+   
+}
+.features-icon-headphones p{
+    font-family: 'Heebo', sans-serif;
+}
+.features-icon-tie{
+    width: 330px;
+    height: 100px;
+    padding-left: 15px;
+    margin-right: 30px;
+    margin-top: 30px;
+      
+    
+}
+.features-icon-tie i{
+    float: left;
+    
+}
+.features-icon-tie h5{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    float: left;
+   
+}
+.features-icon-tie p{
+    font-family: 'Heebo', sans-serif;
+}
+.logo{
+    margin: 100px;
+    background-color: #00B98E;
+}
+.logo .companylogo{
+    padding: 50px;
+    display: flex;
+}
+.logo .companylogo .logo1 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.logo .companylogo .logo2 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+}
+.logo .companylogo .logo3 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+}
+.logo .companylogo .logo4 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+}
+.logo .companylogo .logo5 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+}
+.logo .companylogo .logo6 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+.testimonial{
+    margin: 100px;
+}
+.testimonial-card{
+    display: flex;
+}
+
+.testimonial-title h6{
+    color: #00B98E;
+    border: 1px solid #dee2e6;
+    padding: 1px 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+.testimonial-title h5{
+font-size: 2rem;
+font-family: "Roboto", sans-serif;
+width: 600px;
+margin-bottom: 20px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.testimonial-card1{
+    width: 400px;
+    height: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    margin-top: 30px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 30px;
+    
+}
+.testimonial-card1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.testimonial-card1 .testimonial-img{
+    margin-top: 20px;
+}
+.testimonial-card1 i{
+    color: #00B98E;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.testimonial-card2{
+    width: 400px;
+    height: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    margin-top: 30px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.testimonial-card2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.testimonial-card2 .testimonial-img{
+    margin-top: 20px;
+}
+.testimonial-card2 i{
+    color: #00B98E;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.testimonial-card3{
+    width: 400px;
+    height: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 30px;
+    margin-top: 30px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.testimonial-card3 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.testimonial-card3 .testimonial-img{
+    margin-top: 20px;
+}
+.testimonial-card3 i{
+    color: #00B98E;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.testimonial-arrow{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+.testimonial-arrow1 i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00B98E;
+    border-radius: 45px;
+    transition: 0.5s;
+    padding: 11px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.testimonial-arrow1 i:hover{
+    background-color: #00B98E;
+    color: white;
+}
+.testimonial-arrow2 i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00B98E;
+    border-radius: 45px;
+    align-items: center;
+    transition: 0.5s;
+    justify-content: center;
+    padding: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.testimonial-arrow2 i:hover{
+    background-color: #00B98E;
+    color: white;
+}
+.ourteam{
+    margin: 100px;
+}
+.ourteam .ourteam-title h6{
+    color: #00B98E;
+    border: 1px solid #dee2e6;
+    padding: 1px 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ourteam .ourteam-title:hover{
+    color: white;
+}
+.ourteam .ourteam-title h5{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.ourteam .ourteam-card{
+    display: flex;
+
+}
+
+.ourteam .ourteam-card1 img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00B98E;
+   
+
+    
+}
+.ourteam .ourteam-card1{
+    width: 20%;
+    height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+   
+}
+.ourteam .ourteam-card1 h5{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.ourteam .ourteam-card1 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ourteam-icon{
+    text-align: center;
+    word-spacing: 20px;
+    color: #00B98E;
+    
+   
+}
+.ourteam-icon:hover{
+    color: white;
+
+}
+.ourteam .ourteam-card1:hover{
+    background-color: #00B98E;
+}
+.ourteam .ourteam-card2 img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00B98E;
+   
+
+    
+}
+.ourteam .ourteam-card2{
+    width: 20%;
+    height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-right: 50px;
+   
+}
+.ourteam .ourteam-card2 h5{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.ourteam .ourteam-card2 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ourteam .ourteam-card2:hover{
+    background-color: #00B98E;
+}
+.ourteam .ourteam-card3 img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00B98E;
+   
+
+    
+}
+.ourteam .ourteam-card3{
+    width: 20%;
+    height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-right: 50px;
+   
+}
+.ourteam .ourteam-card3 h5{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.ourteam .ourteam-card3 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ourteam .ourteam-card3:hover{
+    background-color: #00B98E;
+}
+.ourteam .ourteam-card4 img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00B98E;
+   
+
+    
+}
+.ourteam .ourteam-card4{
+    width: 20%;
+    height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-right: 50px;
+   
+}
+.ourteam .ourteam-card4 h5{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.ourteam .ourteam-card4 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ourteam .ourteam-card4:hover{
+    background-color: #00B98E;
+}
+.footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    background-color: #0E2E50;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    
+    
+}
+
+
+.footer .footer-card1{
+    width: 25%;
+    overflow: hidden;
+    float: left;
+    color: white;
+    padding-left: 20px;
+    
+}
+.footer-card1 h4{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+.footer-card1 p{
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 10px;
+}
+.footer .footer-card2{
+    width: 25%;
+    overflow: hidden;
+    float: left;
+    color: white;
+
+}
+.footer-card2 h4{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+.footer .footer-card2 a{
+    color: white;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer .footer-card3{
+    width: 25%;
+    overflow: hidden;
+    display: block;
+    float: left;
+    color: white;
+}
+.footer-card3 h4{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+.footer .footer-card3 a{
+    color: white;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.footer .footer-card4{
+    width: 25%;
+    overflow: hidden;
+    display: block;
+    color: white;
+}
+.footer-card4 p{
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.footer-card4 h4{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+.newsletter{
+    position: relative;
+    margin-right: 20px;
+}
+.footer-card4 input{
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 1rem;
+    width: 100%;
+}
+.footer-card4 button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: green;
+    
+
+}
+.footer .copyright{
+    margin-top: 50px;
+    border-top: 1px solid grey;
+    padding-top: 50px;
+}
+.footer .copyright .copyright-icon{
+    color: white;
+    float: left;
+}
+.copyright-icon a{
+    color: white;
+}
+.copyright .copyright-menu{
+    margin-left: 980px;
+}
+.copyright-menu ul{
+    list-style: none;
+    display: flex;
+    
+}
+.copyright-menu ul li{
+    padding: 0 20px 20px 20px;
+    
+    
+}
+.copyright-menu ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
